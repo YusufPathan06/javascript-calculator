@@ -1,0 +1,55 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="calculator-div">
+      <h1 class="heading">Calculator</h1>
+      <input type="text" readonly id="result" class="result" />
+      <div class="content">
+        <div>
+          <div class="numbers-row">
+            <span onClick="handleNumber" class="number">C</span>
+            <span onClick="handleNumber" class="number">%</span>
+            <span onClick="handleNumber" class="number">M+</span>
+            <span onClick="handleNumber" class="number">M-</span>
+          </div>
+          <div class="numbers-row">
+            <span onClick="handleNumber" class="number">7</span>
+            <span onClick="handleNumber" class="number">8</span>
+            <span onClick="handleNumber" class="number">9</span>
+            <span onClick="handleNumber" class="number">x</span>
+          </div>
+          <div class="numbers-row">
+            <span onClick="handleNumber" class="number">4</span>
+            <span onClick="handleNumber" class="number">5</span>
+            <span onClick="handleNumber" class="number">6</span>
+            <span onClick="handleNumber" class="number">/</span>
+          </div>
+          <div class="numbers-row">
+            <span onClick="handleNumber" class="number">1</span>
+            <span onClick="handleNumber" class="number">2</span>
+            <span onClick="handleNumber" class="number">3</span>
+            <span onClick="handleNumber" class="number">+</span>
+          </div>
+          <div class="numbers-row">
+            <span onClick="handleNumber" class="number">0</span>
+            <span onClick="handleNumber" class="number">.</span>
+            <span onClick="handleNumber" class="number">=</span>
+            <span onClick="handleNumber" class="number">-</span>
+          </div>
+          <!-- <div class="operations-div">
+            <span onClick="handleNumber" class="operand">+</span>
+            <span onClick="handleNumber" class="operand">-</span>
+            <span onClick="handleNumber" class="operand">/</span>
+            <span onClick="handleNumber" class="operand">*</span>
+          </div> -->
+        </div>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
