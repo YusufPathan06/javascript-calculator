@@ -1,4 +1,6 @@
 let result = '';
+let buttons = document.querySelectorAll('.number');
+console.log(buttons);
 const handleNumber = (e) => {
     const clickedNumber = e.target.textContent;
     result += clickedNumber
